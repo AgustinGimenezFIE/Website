@@ -7,6 +7,7 @@
     <title>Workout Web</title>
     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
 
@@ -96,37 +97,77 @@
 
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </main>
-    <footer>
-        <div>
-            <div>
-                <p>Suscribite al newsletter</p>
-            </div>
-            <div>
-                <input type="email" placeholder="Escribe tu correo electrónico">
-                <input type="submit" value="Suscribir">
-            </div>
-            <div>
-                <a href="#"><img src="../Imagenes/FB black.png" alt="Facebook"></a>
-                <a href="#"><img src="../Imagenes/Logo IG.png" alt="Instagram"></a>
-                <a href="#"><img src="../Imagenes/" alt="Pinterest"></a>
-                <a href="#"><img src="../Imagenes/" alt="Linkedin"></a>
-                <a href="#"><img src="../Imagenes/" alt="Youtube"></a>
-            </div>
-        </div>
-        <div>
-            <div>
-                <img src="../Imagenes/Isologo.png" alt="Isologo">
-            </div>
-            <div>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque alias maiores doloremque necessitatibus iure sit libero quae. Necessitatibus numquam laboriosam ut cumque vero unde, in debitis deserunt reprehenderit iusto delectus?
-            </div>
-        </div>
-        <div>
-            <p>2024 @ Workout Web@</p>
-            <p>Todos los derechos reservados</p>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	
+<footer class="footer-section bg-dark position-relative">
+  <div class="container">
+      <div class="footer-content pt-5 pb-5 position-relative">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo mb-4">
+                          <a href="index.html"><img src="/img/Isotipo_2.png" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p class="mb-3 fs-6 text-secondary lh-base">Somos una empresa con el objetivo de hacer creecer el mundo del entrenamiento de la mejor manera posible con nuestras apps y programas.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                          <span class="text-light d-block fs-4 fw-bold mb-2">Seguinos</span>
+                          <a class="text-light fs-5 me-3" href="#"><i class="fab fa-facebook-f facebook-bg lh-lg text-center rounded-circle"></i></a>
+                          <a class="text-light fs-5 me-3" href="#"><i class="fab fa-twitter twitter-bg lh-lg text-center rounded-circle"></i></a>
+                          <a class="text-light fs-5 me-3" href="#"><i class="fab fa-google-plus-g google-bg lh-lg text-center rounded-circle"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3 class="text-light mb-5 position-relative fs-4 fw-bold">Links Utiles</h3>
+                      </div>
+                      <ul class="m-0 p-0">
+                          <li class="d-inline-block mb-2 float-start w-50"><a href="#">Home</a></li>
+                          <li class="d-inline-block mb-2 float-start w-50"><a href="#">Sobre Nosotros</a></li>
+                          <li class="d-inline-block mb-2 float-start w-50"><a href="#">Programas</a></li>
+                          <li class="d-inline-block mb-2 float-start w-50"><a href="#">Portfolio</a></li>
+                          <li class="d-inline-block mb-2 float-start w-50"><a href="#">Productos</a></li>
+                          <li class="d-inline-block mb-2 float-start w-50"><a href="#">Contacto</a></li>
+                          <li class="d-inline-block mb-2 float-start w-50"><a href="#">Clases Virtuales</a></li>
+                          <li class="d-inline-block mb-2 float-start w-50"><a href="#">Ultimas Noticias</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3 class="text-light mb-5 position-relative fs-4 fw-bold">Suscribete</h3>
+                      </div>
+                      <div class="footer-text mb-25">
+                          <p class="text-secondary">No dejes de suscribirte a nuestros nuevos feeds, por favor completa el formulario a continuación.</p>
+                      </div>
+                      <div class="subscribe-form position-relative overflow-hidden">
+                          <form action="#">
+                              <input class="w-100 px-3 py-3 bg-secondary border-light text-dark" type="text" placeholder="Correo Electronico">
+                              <button class="position-absolute px-4 py-3"><i class="fab fa-telegram-plane text-light fs-4"></i></button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright-area bg-gradient px-0 py-4">
+      <div class="container">
+          <div class="row">
+              <div class="text-center">
+                  <div class="copyright-text">
+                      <p class="m-0 fs-6 text-secondary">Copyright &copy; 2024, All Right Reserved <a href="https://inscripcionesagencia.bue.edu.ar/codoacodo/">Codo a Codo</a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+          
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     
 </body>
