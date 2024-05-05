@@ -13,6 +13,36 @@ a {
     color: black;
 }
 
+/* MAIN--------------------------------------------
+*/
+.MainCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.MainCards .card{
+    margin-left: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFCA8B;
+}
+
+.MainCards .card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 1.2rem;
+}
+
+.MainCards button{
+    width: 60%;
+    height: 17%;
+    background-color: #F17524;
+    color: black;
+    font-weight: 500;
+}
+
 img {
     display: block;
     width: 100%;
