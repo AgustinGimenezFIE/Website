@@ -279,5 +279,29 @@ img {
 }
 }
 
+@media (hover: hover){
+  .mainConjuntoImagenes img:hover{
+    opacity: 50%; 
+    transform: scale(1.05);
+}
+
+  .mainBtn{
+    opacity: 0%;
+  }
+
+  .mainSegundaSeccionImg:hover ~ .mainBtn{
+    background-color: #F17524;
+    font-weight: 200;
+    color: #000000;
+    opacity: 100%;
+  }
+
+  .mainBtn:hover {
+    background-color: #F17524;
+    opacity: 100%;
+  }
+  
+  }
+
 
 /* AREA CLIENTE */
