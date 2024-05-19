@@ -13,8 +13,14 @@ a {
     color: black;
 }
 
-/* MAIN--------------------------------------------
+/* MAIN---------------------------------------------------
 */
+.mainVideo{
+  opacity: 75%;
+  
+}
+
+
 .MainCards{
     display: flex;
     flex-direction: row;
@@ -34,6 +40,7 @@ a {
     flex-direction: column;
     justify-content: end;
     margin-bottom: 1.2rem;
+    
 }
 
 .MainCards button{
@@ -58,6 +65,19 @@ a {
   justify-content: space-evenly;
 }
 
+.mainDivImg1, .mainDivImg2, .mainDivImg3, .mainDivImg4, .mainDivImg5, .mainDivImg6{
+  position: relative;
+}
+
+.mainDivImg1 button, .mainDivImg2 button, .mainDivImg3 button,
+.mainDivImg4 button, .mainDivImg5 button, .mainDivImg6 button{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
 .mainConjuntoImagenes{
 display: flex;
 flex-direction: row;
@@ -65,8 +85,9 @@ justify-content: space-around;
 flex-wrap: wrap;
 }
 
-.mainConjuntoImagenes img{
-  max-height: 32%;
+.mainSegundaSeccionImg{
+  
+  max-height: 100%;
   border-width: 1px;
     border-style: solid;
     border-color: #FFCA8B;
