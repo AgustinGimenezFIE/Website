@@ -13,11 +13,26 @@ a {
     color: black;
 }
 
-/* MAIN---------------------------------------------------
-*/
+body {
+  padding-top: 55px;
+}
+
+.btn-1 {
+  background-color: #F17524;
+}
+
+/*MAIN*/
+
+main {
+  padding-bottom: 55px;
+}
+
+.carousel-item {
+  height: 95vh;
+}
+
 .mainVideo{
   opacity: 75%;
-  
 }
 
 
@@ -56,7 +71,7 @@ a {
 }
 
 .mainSubtitulos{
-  margin-bottom: 8rem;
+  margin: 2rem;
 }
 
 .mainSegundaSeccion{
@@ -328,3 +343,4 @@ img {
 
 
 /* AREA CLIENTE */
+
