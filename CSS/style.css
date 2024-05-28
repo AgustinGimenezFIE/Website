@@ -40,7 +40,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 3rem;
+    
 }
 
 .MainCards .card{
@@ -48,23 +48,29 @@ main {
     border-width: 1px;
     border-style: solid;
     border-color: #FFCA8B;
+    
 }
 
 .MainCards .card-img-overlay{
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    margin-bottom: 1.2rem;
-    
+    justify-content: end;    
 }
 
-.MainCards button{
-    width: 60%;
-    height: 17%;
-    background-color: #F17524;
-    color: black;
-    font-weight: 500;
+.MainCards .btn{
+  width: 60%;
+  height: 17%;
+  background-color: #F17524;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
+
+
 
 .mainSubtitulos h4, h6{
   text-align: center;
@@ -114,9 +120,6 @@ flex-wrap: wrap;
   border-style: solid;
   border-color: #F17524;
 }
-
-
-
 /* /MAIN--------------------------------------------
 */
 
@@ -314,7 +317,64 @@ img {
     width: 100%;
     padding: 100px;
   }
-   
+
+  /*MAIN
+  */
+
+  .mainVideo video{
+    min-width: 100vw;
+  }
+
+  .MainCards{
+    flex-wrap: wrap;
+  }
+
+  .MainCards .card{
+    margin-bottom: 1rem;
+    max-width: 20rem;
+    
+  }
+
+
+
+  .mainSubtitulos {
+    margin-bottom: 3rem;
+}
+
+  .mainSegundaSeccion{
+    flex-wrap: wrap;
+  }
+
+  .mainWorkappLogo{
+    margin-bottom: 3rem;
+    max-width: 75%;
+  }
+
+  .mainConjuntoImagenes img{
+    margin-bottom: 1rem;
+  }
+
+  
+  
+  /* /Main
+  */
+}
+
+@media screen and (max-width: 650px) {
+  .card-title{
+    margin-top: 1rem;
+  }
+  
+  .MainCards h5{
+    font-size: 1.2rem;
+  }
+
+  .card-text{
+    font-size: 0.5rem;
+  }
+
+  
+  
 }
 
 @media (hover: hover){
