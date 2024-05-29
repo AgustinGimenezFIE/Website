@@ -120,6 +120,7 @@ flex-wrap: wrap;
   border-style: solid;
   border-color: #F17524;
 }
+
 /* /MAIN--------------------------------------------
 */
 
@@ -320,6 +321,15 @@ img {
 
   /*MAIN
   */
+  .carousel-item {
+    height: 55vw;
+    position: relative;
+  }
+
+  .carrousel-caption{
+    position: absolute;
+    
+  }
 
   .mainVideo video{
     min-width: 100vw;
@@ -335,7 +345,7 @@ img {
     
   }
 
-
+  
 
   .mainSubtitulos {
     margin-bottom: 3rem;
@@ -354,6 +364,13 @@ img {
     margin-bottom: 1rem;
   }
 
+  .mainContainer a{
+    font-size: 0.4rem;
+  }
+
+  .mainContainer h6{
+    font-size: 0.5rem;
+  }
   
   
   /* /Main
@@ -371,6 +388,11 @@ img {
 
   .card-text{
     font-size: 0.5rem;
+  }
+
+  .MainCards .btn{
+    height: 40%;  
+    width: 70%;
   }
 
   
@@ -398,9 +420,5 @@ img {
     background-color: #F17524;
     opacity: 100%;
   }
-  
-  }
-
-
 /* AREA CLIENTE */
 
